@@ -1,0 +1,34 @@
+{
+    "name": "Geo-LeetRank",
+    "version": "0.1.0",
+    "description": "Country-based LeetCode Contest Rankings",
+    "host_permissions": [
+        "https://*.leetcode.com/contest/*"
+    ],
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.leetcode.com/contest/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": {
+            "16": "assets/ext-icon.png",
+            "24": "assets/ext-icon.png",
+            "32": "assets/ext-icon.png"
+        },
+        "default_title": "Geo-LeetRank",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+}
