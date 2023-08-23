@@ -8,18 +8,28 @@ _For instance, if your global rank is 800 and 200 of those participants are from
 #### **Follow the following steps to setup and use ourextension.**
 1. Clone this repository to your local machine.
     ```
+    git clone https://github.com/DeepakSharma72/Geo-LeetRank.git
     ```
+
 2. Copy and paste the following URL into your Chrome browser's search bar.
     ```
     chrome://extensions
     ```
+
 3. Enable developer mode by toggling the switch.
+
     !['demo photo'](./assets/dev-mode.png)
+
 4. Click on the "Load unpacked" button.
+
     !['demo photo'](./assets/load-unpack.png)
+
 5. Browse and select the cloned repository from your system.
+
     !['demo photo'](./assets/select.png)
+
 6. You're all set to go! Geo-LeetRank is now active and ready to use.
+
     !['demo photo'](./assets/chrome-ext.png)
 
 
